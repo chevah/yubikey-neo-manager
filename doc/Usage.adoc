@@ -68,3 +68,12 @@ that if you have NEO Manager installed on multiple computers, the name
 change will only be reflected on the computer the change was made on.
 
 image:image4.PNG[image]
+
+
+=== U2F+CCID not working on Linux
+
+For Linux distributions with older libccid version, U2F+CCID mode will not
+work.
+
+Update the libccid package or use the workaround provided in the source
+code.

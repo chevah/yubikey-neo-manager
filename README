@@ -92,7 +92,3 @@ prior to distribution:
 
 On Linux you can install the pyside and pycrytpo python modules provided by
 your Linux distribution and create a virtualenv with `--system-site-packages`.
-
-If you have problems running in U2F+CCID mode you might have an older version
-of `libccid`. As a workaround you can try using
-`resources/linux-fix-ccid-udev`.
